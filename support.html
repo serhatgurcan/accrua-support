@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destek - Accrua</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .header p { opacity: 0.9; }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h2 { color: #667eea; margin-bottom: 1rem; font-size: 1.5rem; }
+        h3 { color: #333; margin: 1.5rem 0 0.75rem; font-size: 1.1rem; }
+        p { margin-bottom: 1rem; color: #555; }
+        .faq-item {
+            background: #f9f9fb;
+            padding: 1rem;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+        }
+        .faq-item strong {
+            color: #667eea;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #667eea20 0%, #764ba220 100%);
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        .contact-box a {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+        .lang-switch {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .lang-switch a {
+            color: #667eea;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border: 1px solid #667eea;
+            border-radius: 20px;
+            margin: 0 0.25rem;
+            display: inline-block;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background: #667eea;
+            color: white;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #667eea;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Destek</h1>
+        <p>Support</p>
+    </div>
+    
+    <div class="container">
+        <div class="lang-switch">
+            <a href="#turkish" class="active">Türkçe</a>
+            <a href="#english">English</a>
+        </div>
+
+        <!-- TÜRKÇE -->
+        <div class="card" id="turkish">
+            <h2>🇹🇷 Türkçe</h2>
+            
+            <h3>Sıkça Sorulan Sorular</h3>
+            
+            <div class="faq-item">
+                <strong>S: Verilerim nerede saklanıyor?</strong>
+                C: Tüm verileriniz güvenli bir şekilde cihazınızda saklanır. İsteğe bağlı olarak iCloud senkronizasyonu etkinleştirilebilir.
+            </div>
+            
+            <div class="faq-item">
+                <strong>S: Birden fazla iPhone'da kullanabilir miyim?</strong>
+                C: iCloud senkronizasyonu etkinleştirildiğinde verileriniz tüm iPhone'larınızda senkronize olur.
+            </div>
+            
+            <div class="faq-item">
+                <strong>S: Verilerimi nasıl yedeklerim?</strong>
+                C: Ayarlar > Dışa Aktar bölümünden verilerinizi CSV formatında dışa aktarabilirsiniz.
+            </div>
+            
+            <div class="faq-item">
+                <strong>S: Premium'u nasıl iptal ederim?</strong>
+                C: iPhone Ayarları > Apple ID > Abonelikler bölümünden iptal edebilirsiniz.
+            </div>
+            
+            <div class="faq-item">
+                <strong>S: Sesli gider girişi nasıl çalışır?</strong>
+                C: Mikrofon izni verdikten sonra, mikrofon butonuna basarak "50 lira market" gibi komutlar söyleyebilirsiniz.
+            </div>
+            
+            <div class="faq-item">
+                <strong>S: Widget'lar neden görünmüyor?</strong>
+                C: Ana ekrana uzun basın > + butonuna tıklayın > Accrua'yı arayın. Widget'lar Premium özelliğidir.
+            </div>
+
+            <div class="contact-box">
+                <p><strong>Başka sorularınız mı var?</strong></p>
+                <a href="mailto:serhatgr47@gmail.com">E-posta Gönder</a>
+            </div>
+        </div>
+
+        <!-- ENGLISH -->
+        <div class="card" id="english">
+            <h2>🇬🇧 English</h2>
+            
+            <h3>Frequently Asked Questions</h3>
+            
+            <div class="faq-item">
+                <strong>Q: Where is my data stored?</strong>
+                A: All your data is stored securely on your device. Optionally, iCloud sync can be enabled.
+            </div>
+            
+            <div class="faq-item">
+                <strong>Q: Can I use the app on multiple iPhones?</strong>
+                A: With iCloud sync enabled, your data syncs across all your iPhones.
+            </div>
+            
+            <div class="faq-item">
+                <strong>Q: How do I backup my data?</strong>
+                A: Go to Settings > Export to export your data in CSV format.
+            </div>
+            
+            <div class="faq-item">
+                <strong>Q: How do I cancel Premium?</strong>
+                A: Go to iPhone Settings > Apple ID > Subscriptions to cancel.
+            </div>
+            
+            <div class="faq-item">
+                <strong>Q: How does voice expense entry work?</strong>
+                A: After granting microphone permission, tap the microphone button and say commands like "50 lira groceries".
+            </div>
+            
+            <div class="faq-item">
+                <strong>Q: Why aren't widgets showing?</strong>
+                A: Long press on home screen > tap + > search for Accrua. Widgets are a Premium feature.
+            </div>
+
+            <div class="contact-box">
+                <p><strong>Have more questions?</strong></p>
+                <a href="mailto:serhatgr47@gmail.com">Send Email</a>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-link">← Ana Sayfa / Home</a>
+    </div>
+</body>
+</html>
