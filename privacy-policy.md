@@ -51,7 +51,7 @@ We may update this privacy policy from time to time. Changes will be notified th
 ### Contact
 
 For questions about this privacy policy:
-- Email: serhatgurcan@icloud.com
+- Email: serhat.gurcan@icloud.com
 
 ---
 
@@ -102,7 +102,7 @@ Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Değişiklikler uygul
 ### İletişim
 
 Bu gizlilik politikası hakkında sorularınız için:
-- E-posta: serhatgurcan@icloud.com
+- E-posta: serhat.gurcan@icloud.com
 
 ---
 

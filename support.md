@@ -35,7 +35,7 @@ A: Go to Settings > Apple ID > Subscriptions on your iPhone to manage your subsc
 
 For questions, feedback, or support:
 
-📧 **Email:** serhatgurcan@icloud.com
+📧 **Email:** serhat.gurcan@icloud.com
 
 We typically respond within 24-48 hours.
 
@@ -81,7 +81,7 @@ C: iPhone'unuzda Ayarlar > Apple ID > Abonelikler bölümünden aboneliğinizi y
 
 Sorularınız, geri bildirimleriniz veya destek için:
 
-📧 **E-posta:** serhatgurcan@icloud.com
+📧 **E-posta:** serhat.gurcan@icloud.com
 
 Genellikle 24-48 saat içinde yanıt veriyoruz.
 
