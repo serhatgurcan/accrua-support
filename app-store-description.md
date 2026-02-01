@@ -8,7 +8,7 @@
 
 ---
 
-## Description - Türkçe (4000 karakter limiti)
+## Description
 
 Accrua ile finanslarınızı kolayca takip edin ve kontrol altına alın!
 
